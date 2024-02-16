@@ -1,0 +1,114 @@
+/* css reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('img/abs-1850926_1280.jpg');
+    color: azure;
+    font-family: 'Pacifico', cursive;
+}
+
+.left {
+    display: inline-block;
+    position: fixed;
+    left: 35px;
+    top: 15px;
+}
+
+.left img {
+    width: 30px;
+    filter: invert(100);
+    padding-left: 43px;
+    font-family: 'Crimson Text', serif;
+}
+
+.left div {
+    line-height: 13px;
+    font-size: 20px;
+}
+
+.mid {
+    width: 38%;
+    margin: 15px 684px;
+    display: block;
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    right: 21px;
+    top: 16px;
+    position: fixed;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: azure;
+    text-decoration: none;
+    padding: 35px 24px;
+}
+
+.navbar li a:hover {
+    color: darkgray;
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 17px 4px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    padding: 4px 9px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container {
+    margin: 5px 220px;
+    padding: 100px;
+    width: 35%;
+    border-radius: 10px;
+    float: right;
+    padding-bottom: 10%;
+    padding-right: 13px;
+}
+
+.container h1 {
+    padding: 8px 8px;
+    padding-right: 10px;
+    text-align: center;
+    padding-left: 10px;
+    margin-left: -92px;
+}
+
+.form-group input {
+    text-align: left;
+    display: block;
+    width: 295px;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 7px;
+    margin: 10px auto;
+    margin-left: -33px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.container button {
+    display: block;
+    width: 24%;
+    margin-left: 56px;
+}
+
+.btn button :hover {
+    color: darkgrey;
+}
