@@ -1,4 +1,4 @@
-## In this repo you find will beginner friendly project just using HTML and CSS.
+## In this repo you wil find beginner friendly project just using HTML and CSS.
 
 #### Project Link For Reviewing ⬇️
 
